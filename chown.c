@@ -22,5 +22,6 @@ int main(int argc, char *argv[])
             exit();
         }
 	chown(argv[1],atoi(argv[2]));
+	printf(1,"chown successfully\n");
 	exit();
 }

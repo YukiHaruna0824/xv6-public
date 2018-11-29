@@ -105,7 +105,7 @@ extern int sys_write(void);
 extern int sys_uptime(void);
 extern int sys_chmod(void);
 extern int sys_chown(void);
-extern int sys_chgup(void);
+extern int sys_chgrp(void);
 
 
 static int (*syscalls[])(void) = {
@@ -132,7 +132,7 @@ static int (*syscalls[])(void) = {
 [SYS_close]   sys_close,
 [SYS_chmod]   sys_chmod,
 [SYS_chown]   sys_chown,
-[SYS_chgup]   sys_chgup
+[SYS_chgrp]   sys_chgrp
 };
 
 void

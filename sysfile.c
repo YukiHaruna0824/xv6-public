@@ -481,7 +481,7 @@ int sys_chown(void) {
     return 0;
 }
 
-int sys_chgup(void) {
+int sys_chgrp(void) {
     char *path;
     int group;
     struct inode *ip;

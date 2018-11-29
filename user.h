@@ -27,7 +27,7 @@ int uptime(void);
 //add syscall
 int chmod(char *, int);
 int chown(char *, int);
-int chgup(char *, int);
+int chgrp(char *, int);
 
 // ulib.c
 int stat(const char*, struct stat*);

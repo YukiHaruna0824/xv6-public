@@ -22,4 +22,4 @@
 #define SYS_close  21
 #define SYS_chmod  22
 #define SYS_chown  23
-#define SYS_chgup  24
+#define SYS_chgrp  24

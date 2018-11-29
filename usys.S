@@ -32,4 +32,4 @@ SYSCALL(uptime)
 
 SYSCALL(chmod)
 SYSCALL(chown)
-SYSCALL(chgup)
+SYSCALL(chgrp)

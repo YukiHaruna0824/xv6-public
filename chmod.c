@@ -102,6 +102,8 @@ int main(int argc, char *argv[])
 			chmod(path,0x4 ^ permission);
 		}
 	}	
+	
+	printf(1,"chmod successfully\n");
 	close(fd);
 	exit();
 }
